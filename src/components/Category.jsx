@@ -9,7 +9,7 @@ const Category = () => {
 
   return (
     <div className='max-w-[1640px] mx-auto py-12 px-4'>
-        <h1 className='text-orange-600 text-center font-bold text-4xl pb-12'>Top rated menu items</h1>
+        <h1 className='text-orange-600 text-center font-bold text-2xl lg:text-4xl pb-12'>Top rated menu items</h1>
 
         {/* categories */}
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 py-6 '>

@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='cursor-pointer' onClick={()=>setNav(!nav)}>
                 <AiOutlineMenu size={30}/>
             </div>
-            <h1 className='text-3xl sm:text:2xl lg:text-3xl px-4 font-bold'>Tasty FOODS</h1>
+            <h1 className='text-1xl  lg:text-3xl px-4 font-bold'>Tasty FOODS</h1>
             <div className='hidden lg:flex items-center bg-gray-200 rounded-full'>
                 <p className='bg-black text-white p-2 rounded-full mr-2'>Delivery</p>
                 <p className='p-2 rounded'>Pickup</p>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
 
         {/* search input */}
-        <div className='bg-gray-200 rounded-full flex items-center px-4 w-[200px] sm:w-[300px] lg:w-[400px]'>
+        <div className='bg-gray-200 rounded-full flex items-center h-[40px] lg:h-[50px] px-4 w-[200px] sm:w-[300px] lg:w-[400px]'>
             <AiOutlineSearch size={25}/>
             <input className='bg-transparent outline-none w-[100%] ml-4 capitalize' type="text" name="" id="" placeholder='Search food' />
         </div>
