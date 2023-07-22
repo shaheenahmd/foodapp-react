@@ -17,6 +17,8 @@ const Food = () => {
         );
     };
 
+    
+
     // filter price function 
 
     const filterPrice = (rate)=>{
@@ -34,7 +36,7 @@ const Food = () => {
 
   return (
    <div className='px-4 max-w-[1640px] mx-auto py-12'>
-    <h1 className='text-orange-600 font-bold text-2xl lg:text-4xl pb-16 text-center'>Top rated items</h1>
+    <h1 className='text-orange-600 font-bold text-2xl lg:text-4xl pb-16 text-center'>Top Rated Items</h1>
 
     
     <div className='flex flex-col lg:flex-row justify-between'>
